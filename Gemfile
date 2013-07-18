@@ -1,14 +1,14 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.12'
-gem 'gravatar_image_tag', '1.0.0.pre2'
-gem 'will_paginate', '3.0.pre2'
-gem 'sqlite3', '1.3.4'
+gem 'rails'
+gem 'gravatar_image_tag'
+gem 'will_paginate'
+gem 'mysql2'
 
 group :development do
-  gem 'rspec-rails', '2.6.1'
-  gem 'annotate', '2.4.0'
-  gem 'faker', '0.3.1'
+  gem 'rspec-rails'
+  gem 'annotate'
+  gem 'faker'
 end
 
 group :test do
